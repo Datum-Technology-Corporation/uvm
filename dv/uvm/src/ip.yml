@@ -1,0 +1,41 @@
+ip:
+  name: "uvm"
+  version: "1.2"
+  full-name: "Universal Verification Methodology"
+  type: "DV"
+  sub-type: "UVM Library"
+  sub-sub-type: ""
+  description: >
+    
+  home-page: "https://datum-technology-corporation.github.io/uvm/"
+  repo-uri: "https://github.com/Datum-Technology-Corporation/uvm.git"
+  bugs: "https://github.com/Datum-Technology-Corporation/uvm/issues"
+  aliases: []
+  logo: ""
+  block-diagram: ""
+  languages: ["sv"]
+  simulators-supported:
+    - { name: "vivado", version: "2021.1" }
+  tags: []
+  copyright-holders: ["AMD", "Cadence Design Systems, Inc.", "Mentor Graphics Corporation", "NVIDIA Corporation", "Synopsys, Inc."]
+  licenses: ["Apache"]
+
+structure:
+   scripts-path : "bin"
+   docs-path    : "docs"
+   examples-path: "examples"
+   src-path     : "src"
+
+dependencies:
+
+
+hdl-src:
+  directories: [ ".", "base", "comps", "dap", "deprecated", "dpi", "macros", "reg", "seq", "tlm1", "tlm2" ]
+  flist:
+    metrics : "uvm_pkg.flist"
+    riviera : "uvm_pkg.flist"
+    questa  : "uvm_pkg.flist"
+    vcs     : "uvm_pkg.flist"
+    vivado  : "uvm_pkg.flist.xsim"
+    xcelium : "uvm_pkg.flist"
+
