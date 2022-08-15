@@ -24,16 +24,16 @@
 //----------------------------------------------------------------------
 
 // Directories
--i ${DV_UVM_SRC_PATH}/
--i ${DV_UVM_SRC_PATH}/base
--i ${DV_UVM_SRC_PATH}/comps
--i ${DV_UVM_SRC_PATH}/dap
--i ${DV_UVM_SRC_PATH}/deprecated
--i ${DV_UVM_SRC_PATH}/macros
--i ${DV_UVM_SRC_PATH}/reg
--i ${DV_UVM_SRC_PATH}/seq
--i ${DV_UVM_SRC_PATH}/tlm1
--i ${DV_UVM_SRC_PATH}/tlm2
+-i ${UVM_SRC_PATH}/
+-i ${UVM_SRC_PATH}/base
+-i ${UVM_SRC_PATH}/comps
+-i ${UVM_SRC_PATH}/dap
+-i ${UVM_SRC_PATH}/deprecated
+-i ${UVM_SRC_PATH}/macros
+-i ${UVM_SRC_PATH}/reg
+-i ${UVM_SRC_PATH}/seq
+-i ${UVM_SRC_PATH}/tlm1
+-i ${UVM_SRC_PATH}/tlm2
 
 // Target package
-${DV_UVM_SRC_PATH}/uvm_pkg.sv
+${UVM_SRC_PATH}/uvm_pkg.sv
