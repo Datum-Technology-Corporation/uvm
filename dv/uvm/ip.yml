@@ -1,12 +1,12 @@
 ip:
   name: "uvm"
+  vendor: "datum"
   version: "1.2"
   full-name: "Universal Verification Methodology Reference Implementation"
   type: "DV"
   sub-type: "UVM Library"
   sub-sub-type: ""
-  description: >
-    
+  description: ""
   home-page: ""
   repo-uri: ""
   bugs: ""
@@ -15,12 +15,12 @@ ip:
   block-diagram: ""
   languages: ["sv"]
   simulators-supported:
-    - { name: "vivado", version: "2022.1" }
-    - { name: "metrics", version: "*" }
-    - { name: "vcs", version: "*" }
-    - { name: "xcelium", version: "*" }
-    - { name: "questa", version: "*" }
-    - { name: "riviera", version: "*" }
+    vivado : "*"
+    metrics: "*"
+    vcs    : "*"
+    xcelium: "*"
+    questa : "*"
+    riviera: "*"
   tags: []
   copyright-holders: ["Mentor Graphics Corporation","Cadence Design Systems, Incorporated","Synopsys Inc.","Cypress Semiconductor Corp."]
   licenses: ["Apache"]
@@ -34,7 +34,8 @@ structure:
 dependencies:
 
 hdl-src:
-  directories: [ ".", "base", "comps", "dap", "deprecated", "dpi", "macros", "reg", "seq", "tlm1", "tlm2" ]
+  directories: [".", "base", "comps", "dap", "deprecated", "dpi", "macros", "reg", "seq", "tlm1", "tlm2"]
+  top-files: ["uvm_pkg.sv"]
   flist:
     metrics : "uvm_pkg.flist"
     riviera : "uvm_pkg.flist"
