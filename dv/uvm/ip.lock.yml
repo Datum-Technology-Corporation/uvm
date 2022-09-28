@@ -1,0 +1,53 @@
+dependencies: null
+hdl-src:
+  directories:
+  - .
+  - base
+  - comps
+  - dap
+  - deprecated
+  - dpi
+  - macros
+  - reg
+  - seq
+  - tlm1
+  - tlm2
+  top-files:
+  - uvm_pkg.sv
+ip:
+  aliases: []
+  block-diagram: ''
+  bugs: ''
+  copyright-holders:
+  - Mentor Graphics Corporation
+  - Cadence Design Systems, Incorporated
+  - Synopsys Inc.
+  - Cypress Semiconductor Corp.
+  description: ''
+  full-name: Universal Verification Methodology Reference Implementation
+  home-page: ''
+  languages:
+  - sv
+  licenses:
+  - Apache 2.0
+  logo: ''
+  name: uvm
+  repo-uri: ''
+  simulators-supported:
+    metrics: '*'
+    questa: '*'
+    riviera: '*'
+    vcs: '*'
+    vivado: '*'
+    xcelium: '*'
+  sub-sub-type: ''
+  sub-type: UVM Library
+  tags: []
+  type: DV
+  vendor: datum
+  version: '1.2'
+structure:
+  docs-path: docs
+  examples-path: examples
+  scripts-path: bin
+  src-path: src
